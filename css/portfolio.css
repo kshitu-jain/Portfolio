@@ -1,0 +1,215 @@
+/* Basic css code */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: rgb(236, 236, 236);
+  font-family: "Roboto+Condensed", Arial, Helvetica, sans-serif;
+  color: white;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+a {
+  -webkit-transition: all 0.2s, linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.main-area-bg {
+  background-image: url(../images/blue-pipe-light.jpg);
+  height: 750px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 80px;
+  overflow: hidden;
+  position: relative;
+}
+
+.content {
+  margin-top: 100px;
+}
+.content .head-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 42px;
+  line-height: 60px;
+}
+span {
+  color: rgb(0, 186, 186);
+  font-weight: 700;
+}
+
+.btn {
+  cursor: pointer;
+  color: rgb(0, 145, 223);
+  margin: 10px;
+  transition: all 0.3s linear;
+  /* border-color: rgba(241, 241, 241, 0.907); */
+  border-radius: 0%;
+}
+.btn:hover {
+  color: #45ffff;
+  border-color: #45ffff;
+}
+
+.my-image {
+  height: 150px;
+  margin-bottom: 20px;
+}
+.my-pic {
+  height: 700px;
+  width: 600px;
+  margin-top: -50px;
+  margin-left: 0px;
+}
+.text-group {
+  font-size: 22px;
+}
+.navbar {
+  background: rgba(40, 40, 40, 0.477);
+  height: 50px;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: #45ffff;
+}
+.nav-item {
+  margin-right: 35px;
+  font-size: 18px;
+}
+
+.site-heading {
+  margin-top: 50px;
+}
+/* about area */
+
+.about-bg {
+  background-color: rgb(10, 10, 12);
+  height: 200vh;
+}
+
+.about-wrapper {
+  margin-top: 100px;
+}
+.about-content {
+  font-size: 25px;
+  /* background-color: #3b6bd7; */
+  /* padding: 20px; */
+}
+
+.skills-flex {
+  height: 600px;
+  width: 900px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  margin: 40px;
+}
+
+.logo2 {
+  height: 100px;
+  margin: 40px;
+}
+
+/* .logo-images {
+  height: 1px;
+  width: 1px;
+} */
+
+.section-title {
+  margin-top: 80px;
+  font-size: 50px;
+}
+
+/* project area */
+.project-area {
+  height: 200vw;
+}
+.netflix-home {
+  height: 70vh;
+  width: 70vw;
+}
+.my-project {
+  margin-bottom: 5rem;
+  margin-top: 6rem;
+  font-weight: bold;
+  font-size: 50px;
+}
+.project-title:hover {
+  color: #2af8ff;
+}
+.projects {
+  margin-bottom: 150px;
+}
+
+/* contact area */
+.contact-page {
+  height: 145vh;
+}
+
+.contact-area {
+  margin-top: 50px;
+}
+
+.contact-me {
+  font-size: 50px;
+  font-weight: bold;
+}
+/* .contact-image {
+  height: 400px;
+} */
+
+.contact-list {
+  margin-left: 50px;
+  /* border: solid white 2px; */
+}
+
+.contact-through {
+  padding: 30px;
+  border: solid 1px rgb(59, 59, 59);
+  box-shadow: 2px 2px 3px white;
+  height: 200px;
+  width: 280px;
+  transition-duration: 1s;
+}
+
+.contact-through:hover {
+  height: 210px;
+  width: 290px;
+  box-shadow: 5px 5px 5px white;
+  transition-duration: 1s;
+}
+
+.contact-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 159, 174);
+}
+.contact-link:hover {
+  color: #2af8ff;
+  font-size: 21px;
+}
+
+.contact-no {
+  color: rgb(37, 114, 239);
+}

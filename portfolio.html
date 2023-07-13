@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kshitija's Portfolio</title>
+  </head>
+  <link rel="stylesheet" href="/css/bootstrap.css" />
+  <link rel="stylesheet" href="/css/portfolio.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+  <body>
+    <main class="container-fluid p-0">
+      <main class="row">
+        <header class="header-wrap">
+          <!-- navbar section -->
+          <nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto w-100 justify-content-end clearfix">
+                <li class="nav-item active">
+                  <a href="/portfolio.html" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="/project.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/contact.html" class="nav-link">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <!-- personal section start section -->
+          <div class="main-area-bg">
+            <div class="row">
+              <div class="col-lg-7 ms-lg-5">
+                <div class="content">
+                  <p class="mb-2 text-group">My Name</p>
+                  <h2 class="head-title">KSHITIJA JAIN</h2>
+                  <h1>I'M A <span id="element"></span></h1>
+
+                  <p class="text-group mt-3">
+                    I am a certified & professional
+                    <span class="fw-light"> UX designer </span> and
+                    <span class="fw-light"> Full-Stack Developer </span> creating modern and
+                    responsive designs for Web and Mobile. Let us work together.
+                  </p>
+                  <div class="header-button">
+                    <a
+                      href="https://www.linkedin.com/in/kshitija-jain/"
+                      class="btn btn-border hire-btn ms-0"
+                      >Click Here to visit LinkedIn profile</a
+                    >
+                    <!-- <a href="#" class="btn btn-border cv-btn ms-0">Download CV</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- image section -->
+              <div class="col-lg-4 mt-0 p-lg-0">
+                <div class="my-image mt-0">
+                  <img src="./images/my-pic.png" alt="" class="my-pic" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- personal section end -->
+        </header>
+        <!-- about area -->
+        <div class="row about-bg">
+          <div class="col-lg-9 mx-auto col-md-12 col-xs-12 info">
+            <div class="about-wrapper wow" data-wow-delay="0.5s">
+              <div class="site-heading">
+                <h2 class="section-title text-center fw-bold">About Me</h2>
+              </div>
+              <div class="about-content py-4">
+                <p class="">
+                  I have completed certification course of
+                  <span> Full-Stack Web Development Internship Program </span> offered by Edureka
+                  with a vast array of knowledge in many different front end and back end languages,
+                  responsive frameworks, databases, and best code practices.
+                </p>
+                <p></p>
+                <p class="">
+                  My objective is simply to be the best web developer that I can be and to
+                  contribute to the technology industry all that I know and can do.
+                </p>
+
+                <!-- <div class="header-button">
+                  <a href="#" class="btn btn-border cv-btn ms-0">Download CV</a>
+                </div> -->
+              </div>
+            </div>
+            <hr class="my-5" />
+            <div class="skills-area">
+              <h3 class="section-title text-center fw-bold">Skills</h3>
+              <div class="skills-flex py-2">
+                <div class="logo-images">
+                  <img class="logo" src="./images/skills/html 5.png" alt="" />
+                </div>
+
+                <div class="logo-images">
+                  <img class="logo" src="./images/skills/css2.png" alt="" />
+                </div>
+
+                <div class="logo-images">
+                  <img class="logo" src="./images/skills/bootstrap.png" alt="" />
+                </div>
+                <div class="logo-images">
+                  <img class="logo" src="./images/skills/js 1.png" alt="" />
+                </div>
+                <div class="logo-images">
+                  <img class="logo2" src="./images/skills/mongodb 2.png" alt="" />
+                </div>
+                <div class="logo-images">
+                  <img class="logo2" src="./images/skills/nodejs.png" alt="" />
+                </div>
+                <div class="logo-images">
+                  <img class="logo" src="./images/skills/express js.png" alt="" />
+                </div>
+                <div class="logo-images">
+                  <img class="logo" src="./images/skills/react js.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- about section end -->
+        <!-- projects section area -->
+      </main>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Full-Stack Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
