@@ -42,41 +42,94 @@
         </div>
       </nav>
       <!-- navbar end -->
+
+      <!-- navbar mobile -->
+      <div class="d-lg-none">
+        <nav class="navbar fixed-top bg-transparent">
+          <div class="container-fluid d-flex justify-content-end">
+            <button
+              class="navbar-toggler bg-dark-subtle"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end bg-black"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanv</h5> -->
+                <button
+                  type="button"
+                  class="btn-close bg-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/portfolio.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/project.html">Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar mobile end -->
+
       <section class="contact-page">
         <section class="row">
-          <div class="col-lg-10 m-auto contact-area">
+          <div class="col-lg-10 col-12 m-auto contact-area">
             <div class="contact-image text-center m-auto">
-              <img class="m-auto" src="./images/contactcopy.png" alt="" />
+              <img class="m-auto contact-image2" src="./images/contactcopy.png" alt="" />
             </div>
             <h3 class="ms-5 mt-5 text-center contact-me">Contact Me</h3>
 
-            <section class="contact-list d-flex justify-content-between">
+            <section
+              class="contact-list d-flex justify-content-between flex-lg-row flex-column flex-lg-nowrap flex-wrap">
               <div class="mt-5 contact-through">
-                <i class="fa fa-4x fa-github ms-5" aria-hidden="true"></i>
-                <p class="mb-1 ms-5">Github</p>
-                <a class="contact-link ms-3" href="https://github.com/kshitu-jain"
+                <i class="fa fa-4x fa-size fa-github ms-5 d-lg-block d-none" aria-hidden="true"></i>
+                <i class="fa fa-size fa-github d-lg-none" aria-hidden="true"></i>
+                <p class="mb-1 ms-lg-5">Github</p>
+                <a class="contact-link ms-lg-3" href="https://github.com/kshitu-jain"
                   >kshitu-jain/Github</a
                 >
               </div>
 
               <div class="mt-5 contact-through">
-                <i class="fa fa-4x fa-linkedin ms-5" aria-hidden="true"></i>
-                <p class="mb-1 ms-5">LinkedIn</p>
-                <a class="contact-link ms-3" href="https://www.linkedin.com/in/kshitija-jain/">
+                <i
+                  class="fa fa-4x fa-size fa-linkedin ms-5 d-lg-block d-none"
+                  aria-hidden="true"></i>
+                <i class="fa fa-linkedin d-lg-none" aria-hidden="true"></i>
+                <p class="mb-1 ms-lg-5">LinkedIn</p>
+                <a class="contact-link ms-lg-3" href="https://www.linkedin.com/in/kshitija-jain/">
                   kshitu-jain/LinkedIn</a
                 >
               </div>
 
               <div class="mt-5 contact-through">
-                <i class="fa fa-4x fa-envelope-o ms-5" aria-hidden="true"></i>
-                <p class="mb-1 ms-5">Email ID</p>
-                <a class="contact-link" href="">kshitu.jain96@gmail.com</a>
+                <i
+                  class="fa fa-4x fa-size fa-envelope-o ms-5 d-lg-block d-none"
+                  aria-hidden="true"></i>
+                <i class="fa fa-size fa-envelope-o d-lg-none" aria-hidden="true"></i>
+                <p class="mb-1 ms-lg-5">Email ID</p>
+                <a class="contact-link ms-0" href="">kshitu.jain96@gmail.com</a>
               </div>
 
               <div class="mt-5 contact-through">
-                <i class="fa fa-4x fa-phone ms-5" aria-hidden="true"></i>
-                <p class="mb-1 ms-5">Mobile</p>
-                <span class="contact-link ms-3">+91 9075973855</span>
+                <i class="fa fa-4x fa-size fa-phone ms-5 d-lg-block d-none" aria-hidden="true"></i>
+                <i class="fa fa-size fa-phone d-lg-none" aria-hidden="true"></i>
+                <p class="mb-1 ms-lg-5">Mobile</p>
+                <span class="contact-link ms-lg-3">+91 9075973855</span>
               </div>
             </section>
           </div>

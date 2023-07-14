@@ -94,6 +94,7 @@ span {
 .site-heading {
   margin-top: 50px;
 }
+
 /* about area */
 
 .about-bg {
@@ -212,4 +213,149 @@ span {
 
 .contact-no {
   color: rgb(37, 114, 239);
+}
+
+/* mobile view */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .main-area-bg {
+    background-image: url(../images/blue-pipe-light.jpg);
+    height: 1000px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 100px 0 80px; */
+    margin-bottom: 0px !important;
+    overflow: hidden;
+    position: relative;
+  }
+  .content {
+    margin-top: 50px;
+  }
+
+  .my-image {
+    height: 50px;
+    margin-bottom: 0px !important;
+  }
+  .my-pic {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 0px !important;
+  }
+  /* about and skills */
+  /* .skills-area {
+    height: 900px;
+  } */
+  .skills-flex {
+    height: 500px;
+    width: 350px;
+
+    display: flex;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 10px;
+  }
+  .about-bg {
+    background-color: rgb(10, 10, 12);
+    /* background-color: red !important; */
+    height: 300vh;
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+  }
+
+  .logo2 {
+    height: 50px;
+    width: 150px;
+    margin: 0px;
+  }
+  .logo-images {
+    height: 80px;
+    width: 130px;
+  }
+
+  /* project */
+  .project-area {
+    height: 250vh;
+  }
+  .netflix-home {
+    height: 70vh;
+    width: 70vw;
+  }
+  .my-project {
+    margin-bottom: 5rem;
+    margin-top: 6rem;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .project-title:hover {
+    color: #2af8ff;
+  }
+  .projects {
+    margin-bottom: 150px;
+  }
+  .mobile-project-content {
+    font-size: 22px !important;
+  }
+
+  /* contact */
+
+  .contact-page {
+    height: 200vh;
+  }
+
+  .contact-area {
+    margin-top: 50px;
+  }
+
+  .contact-me {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .contact-image2 {
+    height: 220px;
+    width: 350px;
+  }
+
+  .contact-list {
+    margin-left: 0px;
+    margin-left: 50px;
+    /* border: solid white 2px; */
+  }
+
+  .contact-through {
+    padding: 10px;
+    padding-top: 20px;
+    border: solid 1px rgb(59, 59, 59);
+    box-shadow: 2px 2px 3px white;
+    height: 150px;
+    width: 250px;
+    transition-duration: 1s;
+  }
+
+  .contact-through:hover {
+    height: 160px;
+    width: 260px;
+    box-shadow: 5px 5px 5px white;
+    transition-duration: 1s;
+  }
+  .contact-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 159, 174);
+  }
+  .contact-link:hover {
+    color: #2af8ff;
+    font-size: 21px;
+  }
+
+  .contact-no {
+    color: rgb(37, 114, 239);
+  }
 }

@@ -43,6 +43,48 @@
           </div>
         </nav>
         <!-- navbar end -->
+        <!-- navbar mobile -->
+        <div class="d-lg-none">
+          <nav class="navbar fixed-top bg-transparent">
+            <div class="container-fluid d-flex justify-content-end">
+              <button
+                class="navbar-toggler bg-dark-subtle"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-end bg-black"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanv</h5> -->
+                  <button
+                    type="button"
+                    class="btn-close bg-white"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/portfolio.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- navbar mobile end -->
         <div class="col-lg-8 m-auto">
           <div class="project-area">
             <h3 class="my-project text-center">My Projects</h3>
@@ -100,8 +142,8 @@
                 <article>
                   <article class="mt-4">
                     <ul>
-                      <li class="h5">This is my Zomato Clone.</li>
-                      <li class="h5">
+                      <li class="h5 mobile-project-content">This is my Zomato Clone.</li>
+                      <li class="h5 mobile-project-content">
                         Technology used: HTML5/CSS, Bootstrap, React, NodeJS, ExpressJS, MongoDB.
                       </li>
                     </ul>
@@ -158,8 +200,8 @@
                 <article>
                   <article class="mt-4">
                     <ul>
-                      <li class="h5">This is my Netflix Clone.</li>
-                      <li class="h5">
+                      <li class="h5 mobile-project-content">This is my Netflix Clone.</li>
+                      <li class="h5 mobile-project-content">
                         Technology used: HTML5/CSS, Bootstrap, React, NodeJS, ExpressJS, MongoDB.
                       </li>
                     </ul>
@@ -206,8 +248,10 @@
                 <article>
                   <article class="mt-4">
                     <ul>
-                      <li class="h5">This is my Weather-Project.</li>
-                      <li class="h5">Technology used: HTML5/CSS, Bootstrap, Javascript.</li>
+                      <li class="h5 mobile-project-content">This is my Weather-Project.</li>
+                      <li class="h5 mobile-project-content">
+                        Technology used: HTML5/CSS, Bootstrap, Javascript.
+                      </li>
                     </ul>
                     <p>
                       For more details
