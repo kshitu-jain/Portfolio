@@ -99,7 +99,7 @@ span {
 
 .about-bg {
   background-color: rgb(10, 10, 12);
-  height: 200vh;
+  height: 350vh;
 }
 
 .about-wrapper {
@@ -142,6 +142,29 @@ span {
   font-size: 50px;
 }
 
+/* .cert-image {
+  height: 200px;
+  width: 300px;
+} */
+.certificate {
+  background-color: rgb(10, 10, 12);
+  height: 800px;
+}
+.cert-content {
+  font-size: 25px;
+}
+.cert-image {
+  height: 500px;
+  width: 700px;
+}
+.cert-image > img {
+  height: 500px;
+  width: 700px;
+}
+.copyright {
+  background-color: rgb(10, 10, 12);
+}
+
 /* project area */
 .project-area {
   height: 200vw;
@@ -165,7 +188,7 @@ span {
 
 /* contact area */
 .contact-page {
-  height: 145vh;
+  height: 150vh;
 }
 
 .contact-area {
@@ -245,9 +268,7 @@ span {
     margin-bottom: 0px !important;
   }
   /* about and skills */
-  /* .skills-area {
-    height: 900px;
-  } */
+
   .skills-flex {
     height: 500px;
     width: 350px;
@@ -261,7 +282,7 @@ span {
   .about-bg {
     background-color: rgb(10, 10, 12);
     /* background-color: red !important; */
-    height: 300vh;
+    height: 340vh;
   }
   .logo {
     height: 50px;
@@ -278,10 +299,24 @@ span {
     height: 80px;
     width: 130px;
   }
+  .section-title {
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+
+  .cert-image {
+    height: 500px;
+    width: 700px;
+  }
+  .cert-image > img {
+    height: 200px;
+    width: 300px;
+  }
 
   /* project */
   .project-area {
-    height: 250vh;
+    height: 240vh;
   }
   .netflix-home {
     height: 70vh;
@@ -306,7 +341,7 @@ span {
   /* contact */
 
   .contact-page {
-    height: 200vh;
+    height: 170vh;
   }
 
   .contact-area {
