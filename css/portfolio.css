@@ -330,7 +330,7 @@ span {
   .about-bg {
     background-color: rgb(10, 10, 12);
     /* background-color: red !important; */
-    height: 380vh;
+    height: 500vh;
   }
   .logo {
     height: 50px;
@@ -412,7 +412,7 @@ span {
 
   /* project */
   .project-area {
-    height: 240vh;
+    height: 350vh;
   }
   .netflix-home {
     height: 70vh;
@@ -437,7 +437,7 @@ span {
   /* contact */
 
   .contact-page {
-    height: 170vh;
+    height: 270vh;
   }
 
   .contact-area {
