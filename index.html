@@ -31,14 +31,14 @@
             <div class="collapse navbar-collapse">
               <ul class="navbar-nav me-auto w-100 justify-content-end clearfix">
                 <li class="nav-item active">
-                  <a href="/portfolio.html" class="nav-link">Home</a>
+                  <a href="/index.html" class="nav-link">Home</a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="/project.html" class="nav-link">Projects</a>
+                  <a href="/index2.html" class="nav-link">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a href="/contact.html" class="nav-link">Contact Me</a>
+                  <a href="/index3.html" class="nav-link">Contact Me</a>
                 </li>
               </ul>
             </div>
@@ -72,13 +72,13 @@
                   <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                       <li class="nav-item">
-                        <a class="nav-link" href="/portfolio.html">Home</a>
+                        <a class="nav-link" href="/index.html">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/project.html">Project</a>
+                        <a class="nav-link" href="/index2.html">Project</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/contact.html">Contact</a>
+                        <a class="nav-link" href="/index3.html">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -200,18 +200,62 @@
               <div class="cert-image m-auto">
                 <img src="./images/_certificate_super intern_page-0001.jpg" alt="" class="mt-3" />
               </div>
+
+              <div class="mt-lg-5 cover">
+                <p class="left" onclick="leftScroll()">
+                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </p>
+                <p class="h2 fw-bold">Course Certificates</p>
+                <div class="extra-certificates">
+                  <div class="cert2-image m-lg-auto">
+                    <a
+                      href="https://www.edureka.co/lms/certificate/a4c036305d9fccb2d9837d47a1d176ae"
+                      class="h4 text-decoration-none"
+                      >HTML/CSS</a
+                    >
+                    <img src="./images/_certificate_HTML CSS_page-0001.jpg" alt="" class="mt-3" />
+                  </div>
+                  <div class="cert2-image m-lg-auto">
+                    <a
+                      href="https://www.edureka.co/lms/certificate/ee156f3b36ea9dc0c3ee29a9894974f8"
+                      class="h4 text-decoration-none"
+                      >Javascript</a
+                    >
+                    <img src="./images/_certificate_JS_page-0001.jpg" alt="" class="mt-3" />
+                  </div>
+                  <div class="cert2-image m-lg-auto">
+                    <a
+                      href="https://www.edureka.co/lms/certificate/ec8823038dd08c4ee2d161fdfffa74a2"
+                      class="h4 text-decoration-none"
+                      >MongoDB, NodeJS, ExpressJS</a
+                    >
+                    <img src="./images/_certificate_MERN_page-0001.jpg" alt="" class="mt-3" />
+                  </div>
+                  <div class="cert2-image m-lg-auto">
+                    <a
+                      href="https://www.edureka.co/lms/certificate/18fe3b5b2f08fcf23d1c896cddad2602"
+                      class="h4 text-decoration-none"
+                      >ReactJS</a
+                    >
+                    <img src="./images/_certificate_ReactJS.jpg" alt="" class="mt-3" />
+                  </div>
+                </div>
+                <p class="right" onclick="rightScroll()">
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </p>
+              </div>
             </section>
             <!-- certifications end -->
           </div>
           <div class="copyright d-lg-none">
-            <p class="text-center mb-3">
+            <p class="text-center">
               Copyright <span>&copy;</span> 2023 Created by Kshitija | All Rights Reserved
             </p>
           </div>
         </div>
 
         <!-- about section end -->
-        <div class="copyright">
+        <div class="copyright d-lg-block d-none">
           <p class="text-center mb-3">
             Copyright <span>&copy;</span> 2023 Created by Kshitija | All Rights Reserved
           </p>
@@ -225,6 +269,15 @@
         strings: ["Full-Stack Web Developer", "UI/UX Designer"],
         typeSpeed: 50,
       });
+
+      function leftScroll() {
+        const left = document.querySelector(".extra-certificates");
+        left.scrollBy(-200, 0);
+      }
+      function rightScroll() {
+        const right = document.querySelector(".extra-certificates");
+        right.scrollBy(200, 0);
+      }
     </script>
   </body>
 </html>

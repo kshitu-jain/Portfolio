@@ -99,7 +99,7 @@ span {
 
 .about-bg {
   background-color: rgb(10, 10, 12);
-  height: 350vh;
+  height: 420vh;
 }
 
 .about-wrapper {
@@ -156,10 +156,58 @@ span {
 .cert-image {
   height: 500px;
   width: 700px;
+  margin-bottom: 150px !important;
 }
 .cert-image > img {
   height: 500px;
   width: 700px;
+}
+.extra-certificates {
+  max-height: 600px;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 50px;
+  /* background-color: #161616; */
+}
+
+.extra-certificates::-webkit-scrollbar {
+  width: 0;
+}
+.cert2-image {
+  min-width: 620px;
+  height: 530px;
+  line-height: 20px;
+  /* background-color: red; */
+  /* margin-left: 30px;
+  margin-right: 0px; */
+}
+.cert2-image > img {
+  height: 400px;
+  width: 520px;
+  /* margin: 30px; */
+}
+.cert2-image > a {
+  color: rgb(0, 145, 223);
+}
+.cert2-image > a:hover {
+  color: rgb(69, 255, 216);
+}
+.cover {
+  padding: 0px 30px;
+  position: relative;
+}
+.left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .copyright {
   background-color: rgb(10, 10, 12);
@@ -282,7 +330,7 @@ span {
   .about-bg {
     background-color: rgb(10, 10, 12);
     /* background-color: red !important; */
-    height: 340vh;
+    height: 380vh;
   }
   .logo {
     height: 50px;
@@ -306,12 +354,60 @@ span {
   }
 
   .cert-image {
-    height: 500px;
+    height: 350px;
     width: 700px;
+    margin-bottom: 10px !important;
   }
   .cert-image > img {
     height: 200px;
     width: 300px;
+  }
+
+  .extra-certificates {
+    max-height: 600px;
+    width: 260px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .extra-certificates::-webkit-scrollbar {
+    width: 0;
+  }
+  .cert2-image {
+    min-width: 320px;
+    height: 300px;
+  }
+  .cert2-image > img {
+    height: 170px;
+    width: 250px;
+    margin-right: 100px;
+  }
+  .cert2-image > a {
+    color: rgb(0, 145, 223);
+    font-size: 20px !important;
+  }
+  .cert2-image > a:hover {
+    color: rgb(69, 255, 216);
+  }
+
+  .cover {
+    position: relative;
+    margin-top: 10px !important;
+  }
+  .left {
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .right {
+    position: absolute;
+    right: -32px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .copyright {
+    height: 100px;
   }
 
   /* project */
