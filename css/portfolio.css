@@ -182,10 +182,10 @@ span {
   /* margin-left: 30px;
   margin-right: 0px; */
 }
-.cert2-image > img {
+.cert2-image > a > img {
   height: 400px;
   width: 520px;
-  /* margin: 30px; */
+  margin: 30px;
 }
 .cert2-image > a {
   color: rgb(0, 145, 223);
@@ -377,7 +377,7 @@ span {
     min-width: 320px;
     height: 300px;
   }
-  .cert2-image > img {
+  .cert2-image > a > img {
     height: 170px;
     width: 250px;
     margin-right: 100px;
